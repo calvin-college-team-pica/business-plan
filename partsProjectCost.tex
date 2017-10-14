@@ -1,0 +1,191 @@
+\section{Parts and Project Costs}
+\label{sec:parts_and_costs}
+
+The project costs can be broken into fixed and variable costs, where fixed costs represent the costs the team will incur during the year and production start-up costs, while variable costs represent the long-term costs associated with production.
+
+\subsection{Fixed Costs}
+\subsubsection{Prototype parts}
+Through the Senior Design class, the Calvin College Engineering department provided \$750 for prototype parts. Since the project has a large scope, the team needs to minimize the cost of any single part to stay within the given budget. As such, the team chose several parts more because of their low cost rather than for functionality. As such, the team sought donations and free samples whenever possible, including the TI MSP430 development kit from Texas Instruments and the ADE7763 power monitoring chips from Analog Devices. The team also obtained a pre-purchased Xilinx Virtex-5 development board. Table \ref{tab:proto_part_cost} shows the part donations and to-date purchases. 
+
+\begin{table}[htdp]
+\caption{Prototype part costs.}
+\begin{center}
+\begin{tabular}{|c|c|c|c|c|c|}\hline\rowcolor{lightgray}
+Date & Item & Price & Quantity & Total & Running Total\\\hline
+12-Sept & ADE7763 Samples & \$0.00 & 2 & \$0.00 & \$0.00\\\hline
+15-Oct & SSOP to DIP Adapter 20-Pin & \$3.95 & 2 & \$7.90 & \$7.90\\\hline
+15-Oct & Break Away Headers -- Straight	& \$2.50 & 1 & \$2.50 & \$10.40\\\hline
+3-Nov  & TRANSF CURRENT .50" OPENING PCB & \$14.25 & 2 & \$28.50 & \$38.90\\\hline
+15-Nov & TI Donation MSP430 & \$0.00 & 1 & \$0.00 & \$38.90\\\hline
+02-Feb & XO Oscillators DIP-14 3.579545M & \$1.87 \ 2 \ \$3.74 \ \$42.64 \\\hline
+02-Feb & Solid State Relay 25A & \$24.07 \ 2 \ \$48.14 \ \$90.78 \\\hline
+02-Feb & LCD Graphic Display Modules & \$18.55 \ 1 \ \$18.55 \ \$109.33 \\\hline
+02-Feb & FFC/FPC Connectors 0.5mm & \$1.29 \ 2 \ \$2.58 \ \$111.91 \\\hline
+02-Feb & Headers and Wire Housings & \$1.13 \ 2 \ \$2.26 \ \$114.17 \\\hline
+02-Feb & Synchro Chron LCD and Backlight & \$22.75 \ 1 \ \$22.75 \ \$136.92 \\\hline
+\end{tabular}
+\end{center}
+\label{tab:proto_part_cost}
+\end{table}%
+
+\subsubsection{Labor}
+Throughout the semester, the team has kept a log of how many hours they worked. Determining the cost of labor for the past semester based on these records, the team can also more accurately forecast the labor cost for next semester. So far, the team has logged 348 hours, with another 40 estimated before the end of the semester. Extending this to next semester, assuming a similar workload with a little extra time for final presentations, the team expects to have 388 hours, putting the yearlong total at about 776 hours. Assuming engineers are paid \$100 an hour, the first semester labor cost is \$38,800, the second semester cost is \$38,800, making the full labor costs for the project \$77,600 as calculated in Table \ref{tab:labour_costs}. 
+
+\begin{table}[htdp]
+\caption{Team hours and projected labor costs.}
+\begin{center}
+\begin{tabular}{|l|c|c|}\hline\rowcolor{lightgray}
+Timeframe & Hours Logged & Cost \\\hline
+%start to present & 348 & 34,800\\\hline
+%present to end of first semester & 40 & 4,000\\\hline
+first semester & 388 & 38,800\\\hline
+second semester estimate & 427 & 42,700\\\hline
+TOTAL & 815 & 81,500\\\hline
+\end{tabular}
+\end{center}
+\label{tab:labour_costs}
+\end{table}%
+
+
+\subsubsection{Manufacturing start-up}
+In determining the cost for start-up of manufacturing, the team looked strictly at the costs of the product, ignoring many costs associated with starting a business. The team decided to contract out the work needed to build the system. Due to the high volume of systems being manufactured, the cost to manufacture will be low and is included in the cost of parts for each subsystem. The cost of constructing a storage facility is then our largest up front cost. %The team will need to determine the exact costs of this next semester, but aspects will include printing circuit boards, populating them and providing cases for each of the parts. Costs associated with buying or renting a building were broken down to a per device cost under the inventory section of the cash flow. The cost of land was determined to be irrelevant in this situation. 
+
+%\subsubsection{Other}
+%Some other costs to consider include software, discrete components, and various other development kits. In a professional engineering firm, these may represent a significant cost if they do not already own these, but as the college generously provides these, the team does not need to include them in their budget. 
+
+\subsection{Variable Costs}
+\subsubsection{Parts}
+To calculate the overall cost of parts used in production, the team assumed large quantities for each of the individual components. This means that the low end of the cost range for parts is used. Based on this information and the estimated final cost of the prototype, the team calculates the cost of parts and manufacturing for the breakers, base station and e-meter to be \$35, \$100, and \$200 per subsystem, respectively.
+
+%\subsubsection{Manufacturing}
+%The manufacturing costs consist primarily of inventory and labor costs associated with production. Table \ref{tab:expected_devices} shows the calculations determining the number of devices produced in a year. Table \ref{tab:inventory_storage} shows calculations determining the amount of floor space needed to store 3 months worth of devices and the cost to add that space to a pre-existing building \cite{SteelBuilding}. 
+
+%\begin{table}[htdp]
+%\caption{Calculations showing number of devices expected.}
+%\begin{center}
+%\begin{tabular}{|r|p{2in}|l|}\hline\rowcolor{lightgray}
+%Number    & Units                                               & Source\\\hline
+%6400000  & customers                                      & Calvin Business Team\\\hline
+%0.001        & percent interested in PICA         & Estimate based on \cite{Gtech_Renew}\\\hline
+%64000       & customers interested in PICA    & \\\hline\hline
+
+%25              & breakers/customer                       & Estimate\\\hline
+%1600000  & breakers needed		             & \\\hline
+%64000       & base stations needed		   & \\\hline\hline
+
+%3200          & US power companies                 & \cite{EIA_Intro}\\\hline
+%8300000	     & number converted homes         &\cite{Gtech_Smart_Meters}\\\hline
+%24900000	     & number expected conversions & \cite{Gtech_Smart_Meters}\\\hline
+%130000000  & total homes                                 & Calvin Business Team\\\hline
+%40625           & average homes/company       & \\\hline\hline
+
+%5                     & major meter providers                &\cite{Gigaom_SM_Roll}\\\hline
+%3                     & minors per major                         & Estimate\\\hline
+%15                   & minor meter providers                & Estimate\\\hline
+%3                     & ratio homes provided to by major vs. minor & Estimate\\\hline
+%30                   & effective meter providers & \\\hline\hline
+
+%830000    & PICA homes		& \\\hline
+%830000    & E-meters needed	& \\\hline	
+%\end{tabular}
+%\end{center}
+%\label{tab:expected_devices}
+%\end{table}%
+
+%\begin{table}[htdp]
+%\caption{Cost to add room to store inventory.}
+%\begin{center}
+%{\small
+%\begin{tabular}{|>{\raggedright}p{0.5in}|C|c|c|c|c|c|c|c|}\hline\rowcolor{lightgray}
+%& \mathrm{Units} & \multicolumn{2}{|>{\columncolor[gray]{0.75}}c|}{Breaker Storage} & %\multicolumn{2}{|>{\columncolor[gray]{0.75}}c|}{E-meter} & \multicolumn{2}{|>{\columncolor[gray]{0.75}}c|}{Base Station} & \\\hline
+
+%width 	&ft		&0.0833	&given	 &0.5	                    &given	   &1	                            &given	 &\\\hline
+%height	&ft		&0.25	         &given	 &0.6666	 &given	   &0.6666	&given       &\\\hline	
+%length	&ft		&0.3333	&given	 &0.25	           &given       &0.3333	&given       &\\\hline	
+%volume	&ft^3		&0.0069	&calculate &0.08333 &calculate &0.2222        &calculate &\\\hline\hline
+%
+%yr supply	&\#		&1600000	& Table \ref{tab:expected_devices}  &830000 	  & Table \ref{tab:expected_devices}  &64000   	          & Table \ref{tab:expected_devices} &\\\hline	
+%qrt supply	&\#		&400000	          &calculate &207500	           &calculate  &16000  	          &calculate  &\\\hline\hline	
+									
+%pallet ht	&ft		&3	                   &given	   &3	                     &given	     &3	                    &given        &\\\hline	
+%pallet stack&\#	&3		          &                  &3		            &                   &3                            &                 % &\\\hline		
+%total ht	&ft		&9	                   &calculate  &9	                     &calculate   &9	                    &calculate  %&\\\hline\hline	
+									
+%floor area	&ft^2		&308.6419	&calculate   &1921.2962 &calculate  &395.0617	  &calculate  &2625\\\hline\hline
+									
+%floor length, if square&ft		&17.5682	& calculate	&43.8325	 &calculate	&19.8761	&calculate	&51.2347\\\hline\hline
+									
+%cost	&\$		          &12288	          & 20x(20+10)	&30720	&50x(50+10)	&12288	&20x(20+10)	&43000\\\hline
+%\end{tabular}
+%}
+%\end{center}
+%\label{tab:inventory_storage}
+%\end{table}%
+
+
+
+Table \ref{tab:labour_manufacture} shows the calculations used to determine the labor costs for manufacturing purposes. Estimates given during lecture \cite{Nielsen_Cost_Est} helped determine the hourly wage and additional costs of labor including insurance, vacation, holiday, sick time etc. The number of hours needed to assemble each system does not include the time needed to print and populate each circuit board as these will be completed by automatic machinery that requires minimal human interaction. 
+
+%\begin{table}[htdp]
+%\caption{Cost of labour for manufacturing}
+%\begin{center}
+%\begin{tabular}{|l|r|}\hline\rowcolor{lightgray}
+%Line Item & Number\\\hline
+%Hourly wage                                          & \$20\\\hline
+%Insurance, vacation, holiday, etc.	& \$10\\\hline
+%Per worker total	                            & \$30\\\hline
+%Hours to assemble breakers	         & 1\\\hline
+%Hours to assemble base station	& 0.5\\\hline
+%Hours to assemble E-meter	         & 1.5\\\hline
+%Breakers per year	                           &1,600,000\\\hline
+%Base stations per year	                  & 64,000\\\hline
+%E-meters per year	                           & 830,000\\\hline
+%Hours for breaker	                           &1,600,000\\\hline
+%Hours for base station	                  & 32,000\\\hline
+%Hours for e meter	                           & 1,245,000\\\hline
+%Breaker cost	                                    & \$48,000,000\\\hline
+%Base station Cost	                           & \$960,000\\\hline
+%E-meter cost	                                    & \$37,350,000\\\hline\hline
+	 
+%Total Hours	                                    & 2,877,000\\\hline
+%Total Cost	                                              & \$86,310,000\\\hline
+%\end{tabular}
+%\end{center}
+%\label{tab:labour_manufacture}
+%\end{table}%
+
+%\clearpage
+%\subsubsection{Distribution}
+%The team has not yet contacted a shipping company to determine exact costs, but based on experience, size and weight, the team expects a total cost of \$25,400,000. Table \ref{tab:distribution_costs} shows the cost of distribution for each~subsystem. 
+
+%\begin{table}[htdp]
+%\caption{Cost of distribution}
+%\begin{center}
+%\begin{tabular}{|c|r|r|r|}\hline\rowcolor{lightgray}
+%	                            & Breaker	    & Base Station & E-meter\\\hline
+%Number shipped	& 1,600,000 & 64,000           & 830,000\\\hline
+%Cost per device         & \$5	     & \$12               & \$20          \\\hline
+%Total cost	                   & \$8,000,000   & \$768,000         & \$16,600,000\\\hline
+			
+%Total Shipping Cost	&	\multicolumn{3}{|c|}{\$25,368,000}\\\hline
+%\end{tabular}
+%\end{center}
+%\label{tab:distribution_costs}
+%\end{table}%
+
+
+\subsubsection{Marketing}
+The project includes two distinct advertising methods to better accommodate the different target consumers. The e-meter aspect of the project will be sold directly to the power company, and the breakers and base station will be sold to the home and business owners. As the number of power companies is significantly fewer than the number of home and business owners, and will be purchasing in much larger quantities, the team decided it makes sense to appeal to the power companies in a much more personal manner. This includes phone calls, letters, and visits and outside of the cost of paying a few employees will be negligible. 
+
+Most of the advertising will aim at the home and business owners, and the team decided that magazines and websites such as Popular Science and Green magazine are the best method of reaching out to potential buyers.  Green magazine features news and products related to sustainable energy, reaching thousands of people every year. Approximately 36\% of those people are in the building and contracting industry and would be beneficial in spreading news about the team's product \cite{GreenMediaKit}. The cost to put a medium size ad on their website is \$150 dollars per month \cite{GreenMediaKit}, so for a year would be \$1800. Popular science reaches over 7 million people using printed material. For a 1/3 page ad in four color for 12 months, the cost is \$59,900 \cite{PopSci}. The team would like to target 3 to 4 magazines and using Popular Science and Green magazine as boundary cases, estimates a total cost of \$120,000 for marketing and advertising. 
+
+For the home and business owners' side of the project, the team also would like to work with distributers like Lowe's and Home Depot. The team would like to use a method of advertising similar to the one used for power companies, so the cost will not noticeably increase. The distribution companies may do additional advertising, but any costs associated with that will be their responsibility, so again the cost the design team expects will stay the same.
+
+\subsubsection{Legal, warranty and support}
+The team  expects about 10 hours of work for basic legal documentation. Because of the potential for lawsuits, the team built in money to cover the costs of 200 hours of work, assuming \$80 an hour, giving a total of \$16,800. The team does not intend to pursue any patents, but recognizes there may be infringement lawsuits, which were built into the above 200 hours.
+
+The team expects 5\% of all PICA systems that include all three subsystems to fail and need replacement. At a system cost of \$260 per system with shipping of \$30, the amount needed to cover warranties is \$2,432,000.
+%\subsection{Total Costs}
+%Table \ref{ProjectCosts.tex} is a summary of the project costs, including both fixed and variable costs.
+
+%\input{ProjectCosts}
